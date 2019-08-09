@@ -84,7 +84,7 @@ h1.my-work {
     bottom:4px;
     right:4px;
     top: -157px;
-    background:rgba(29,28,28, 0.8);
+    background:rgba(29,28,28, 0.95);
      padding:50px;
     display:none;
 }
@@ -95,6 +95,9 @@ h1.my-work {
 h2 {
 	color: #fff;
 }
+h2:hover {
+	color: #6fbf79;
+}
 p {
 	color: #fff;
 }
@@ -104,7 +107,24 @@ p {
     padding-top: 30px;
 }
 
+/*technologies*/
 
+h3 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+.tech_logos {
+    margin: 60px auto;
+    justify-content: center;
+    display: flex;
+}
+#logo_techno {
+	padding-left: 40px;
+}
 
 
 
