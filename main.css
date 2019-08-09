@@ -2,6 +2,14 @@
 	padding: 0;
 	margin: 0;
 }
+html {
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
 .background {
 	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
@@ -57,7 +65,44 @@ h1.my-work {
 	color: #fff;
 	text-align: center;
 }
+#sites_preview {
+	max-width: 300px;
+    margin-top: 50px;
+    box-shadow: -1px -2px 5px 3px #6fbf79;
+    margin-left: 50px;
 
+}
+.site-logo{
+ 	position:relative;   
+    width:300px;
+    display: inline;
+    
+}
+.block{
+    position:absolute;
+    left:50px;
+    bottom:4px;
+    right:4px;
+    top: -157px;
+    background:rgba(29,28,28, 0.8);
+     padding:50px;
+    display:none;
+}
+
+.site-logo:hover .block{
+    display:block;
+}
+h2 {
+	color: #fff;
+}
+p {
+	color: #fff;
+}
+#hover_icon {
+	max-width: 35px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
 
 
 
