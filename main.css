@@ -126,10 +126,46 @@ h3 {
 	padding-left: 40px;
 }
 
+/*about*/
 
+#about {
+	max-width: 800px;
+	margin: 100px auto;
+	display: flex;
+}
+#portrait {
+	float: left;
+	max-width: 240px;
+    border-radius: 120px;
+}
+.about_me {
+	margin: auto 60px;
+	padding-top: 30px;
+}
+#social_logo_about {
+	max-width: 25px;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+#desc_about_me {
+	font-size: 20px;
+}
 
+/*footer*/
 
-
+#footer_info {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    margin: 138px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+#up_arrow {
+	max-width: 40px;
+	margin-left: 40px;
+}
 
 
 

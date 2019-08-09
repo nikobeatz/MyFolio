@@ -121,14 +121,14 @@ hr {
 }
 #first_row {
     margin-top: 60px;
-    margin-left: 380px;
+    /*margin-left: 380px;*/
     height: 418px;
 }
 img {
 	margin-right: 30px;
 }
 #second_row {
-    margin-left: 380px;
+    /*margin-left: 380px;*/
     margin-top: 30px;
 }
 #btn_foto_one {
@@ -254,7 +254,7 @@ h3 {
 }
 #size_btn_one {
 	padding-left: 28px;
-    padding-right: 30px;
+    padding-right: 32px;
     border-left-width: 1px;
     margin-left: 4px;
     padding-bottom: 14px;
