@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+.background {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrapper {
+	max-width: 1100px;
+	margin: auto;
+}
+
+/*Header*/
+
+header {
+	display: flex;
+}
+img {
+	max-width: 160px;
+}
+ul.folio-ul {
+	display: flex;
+	justify-content: center;
+	margin-left: 160px;
+}
+li.folio-li {
+	list-style: none;
+	padding-left: 60px;
+	padding-top: 25px;
+}
+li.folio-li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+}
+#social_logo {
+	max-width: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+}
+.social {
+	margin-left: 180px;
+}
+
+/*My Work*/
+
+.my_work {
+	margin-top: 50px;
+}
+
+h1.my-work {
+	text-transform: uppercase;
+	font-size: 80px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
