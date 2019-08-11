@@ -716,14 +716,14 @@ h1.my-work {
 }
 .block{
     position:absolute;
-    left:100px;
+    left:41px;
     bottom:50px;
-    right:3px;
-    top: -335px;
+    right:100px;
+    top: -239px;
     background:rgba(29,28,28, 0.95);
     padding:50px;
     display:none;
-    width: 399px;
+    width: 232px;
 }
 
 .site-logo:hover .block{
@@ -731,7 +731,7 @@ h1.my-work {
 }
 h2 {
 	color: #fff;
-	font-size: 40px;
+	font-size: 20px;
 }
 h2:hover {
 	color: #6fbf79;
@@ -740,8 +740,9 @@ p {
 	color: #fff;
 }
 #hover_icon {
-	max-width: 35px;
-    padding-left: 20px;
+	max-width: 25px;
+    padding-right: 20px;
+    padding-left: 0px;
     padding-top: 30px;
 }
 
@@ -772,7 +773,7 @@ h3 {
 }
 #about {
 	max-width: 800px;
-	margin: 120px auto;
+	margin: 100px auto;
 	display: flex;
 }
 #portrait {
@@ -802,7 +803,7 @@ h3 {
     align-items: center;
 }
 #footer {
-    margin: 138px auto 0px;
+    margin: 100px auto 0px;
     display: flex;
     justify-content: center;
 }
