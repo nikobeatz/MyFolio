@@ -26,6 +26,9 @@ header {
 img {
 	max-width: 160px;
 }
+.folio-menu {
+	margin: 0px auto;
+}
 ul.folio-ul {
 	display: flex;
 	justify-content: center;
@@ -51,6 +54,9 @@ li.folio-li a {
 .social {
 	margin-left: 180px;
 }
+
+/*for mobile and tablets*/
+
 
 /*My Work*/
 

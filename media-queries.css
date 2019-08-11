@@ -1,0 +1,818 @@
+/*medium devices*/
+#mobile {
+	display: none;
+}
+@media screen and (max-width: 1100px) {
+	* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.background {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrapper {
+	max-width: 900px;
+	margin: auto;
+}
+
+/*Header*/
+header {
+	display: flex;
+}
+img {
+	max-width: 160px;
+}
+ul.folio-ul {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+li.folio-li {
+	list-style: none;
+	padding-left: 60px;
+	padding-top: 25px;
+}
+li.folio-li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+}
+#social_logo {
+	max-width: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+}
+.social {
+	margin: auto;
+}
+
+/*My Work*/
+
+.my_work {
+	margin-top: 100px;
+}
+
+h1.my-work {
+	text-transform: uppercase;
+	font-size: 60px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+#sites_preview {
+
+	max-width: 230px;
+    margin-top: 50px;
+    box-shadow: -1px -2px 5px 3px #6fbf79;
+    margin:100px 30px;
+
+}
+.site-logo{
+ 	position:relative;   
+    width:300px;
+    display: inline;
+    
+}
+.block{
+    position:absolute;
+    left:30px;
+    bottom:104px;
+    right:34px;
+    top: -217px;
+    background:rgba(29,28,28, 0.95);
+    padding: 20px 50px 50px 20px;
+    display:none;
+}
+
+.site-logo:hover .block{
+    display:block;
+}
+h2 {
+	color: #fff;
+	font-size: 20px
+}
+h2:hover {
+	color: #6fbf79;
+}
+p {
+	color: #fff;
+}
+#hover_icon {
+	max-width: 25px;
+    padding-left: 24px;
+    padding-top: 30px;
+}
+
+/*technologies*/
+
+h3 {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 80px;
+}
+.tech_logos {
+    margin: 60px auto;
+    justify-content: center;
+    display: flex;
+}
+#logo_techno {
+	padding-left: 45px;
+	max-width: 100px;
+}
+
+/*about*/
+
+#about {
+	max-width: 800px;
+	margin: 100px auto;
+	display: flex;
+}
+#portrait {
+	float: left;
+	max-width: 240px;
+    border-radius: 120px;
+}
+.about_me {
+	margin: auto 80px;
+	padding-top: 30px;
+}
+#social_logo_about {
+	max-width: 35px;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+#desc_about_me {
+	font-size: 20px;
+}
+
+/*footer*/
+
+#footer_info {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    margin: 138px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+#up_arrow {
+	max-width: 40px;
+	margin-left: 40px;
+}
+}
+
+/* for tablets*/
+@media screen and (max-width: 879px) {
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.background {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrapper {
+	max-width: 700px;
+	margin: auto;
+}
+
+/*Header*/
+
+#mobile {
+	display: flex;
+}
+header {
+	display: none;
+}
+img {
+	max-width: 160px;
+}
+ul.mob-folio-ul {
+	display: none;
+	justify-content: center;
+	margin: auto;
+}
+li.mob-folio-li {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 25px;
+}
+li.mob-folio-li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+}
+.logo {
+	margin: 0px auto;
+}
+#social_logo {
+	display: flex;
+	max-width: 25px;
+	padding-top: 25px;
+	padding-left: 40px;
+}
+.social {
+	margin: 0px auto;
+	display: flex;
+}
+.mob-folio-menu [type="checkbox"]{
+	display: none;
+}
+.mob-folio-menu label.toggleMenu {
+	display: block;
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 3px;
+}
+.mob-folio-menu {
+	margin: 0px auto;
+}
+input.toggleMenu:checked + label.toggleMenu {
+	color: #a0e812;
+
+}
+input.toggleMenu:checked ~ ul{
+	display: block;
+}
+
+
+/*My Work*/
+
+.my_work {
+	margin-top: 50px;
+}
+
+h1.my-work {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+#sites_preview {
+	max-width: 500px;
+    margin: 50px auto;
+    box-shadow: -1px -2px 5px 3px #6fbf79;
+	display: flex;
+}
+.site-logo{
+ 	position:relative;   
+    width:300px;
+    display: inline;
+    
+}
+.block{
+    position:absolute;
+    left:100px;
+    bottom:50px;
+    right:3px;
+    top: -335px;
+    background:rgba(29,28,28, 0.95);
+    padding:50px;
+    display:none;
+    width: 399px;
+}
+
+.site-logo:hover .block{
+    display:block;
+}
+h2 {
+	color: #fff;
+	font-size: 40px;
+}
+h2:hover {
+	color: #6fbf79;
+}
+p {
+	color: #fff;
+}
+#hover_icon {
+	max-width: 35px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/*technologies*/
+
+h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+.tech_logos {
+    margin: 60px auto;
+    justify-content: center;
+    display: flex;
+}
+#logo_techno {
+	padding-left: 40px;
+	max-width: 12%;
+	height: auto;
+}
+
+/*about*/
+.my_photo {
+	margin: auto;
+}
+#about {
+	max-width: 800px;
+	margin: 120px auto;
+	display: flex;
+}
+#portrait {
+	float: left;
+	max-width: 240px;
+    border-radius: 120px;
+    margin: auto;
+}
+.about_me {
+	margin: auto;
+	padding-top: 30px;
+	max-width: 320px;
+}
+#social_logo_about {
+	max-width: 25px;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+#desc_about_me {
+	font-size: 20px;
+}
+
+/*footer*/
+
+#footer_info {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    margin: 138px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+#up_arrow {
+	max-width: 40px;
+	margin-left: 40px;
+}
+
+/* for mobile*/
+@media screen and (max-width: 500px) {
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.background {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrapper {
+	max-width: 700px;
+	margin: auto;
+}
+
+/*Header*/
+
+#mobile {
+	display: flex;
+}
+header {
+	display: none;
+}
+img {
+	max-width: 175px;
+}
+ul.mob-folio-ul {
+	display: none;
+	justify-content: center;
+	margin: auto;
+}
+li.mob-folio-li {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 25px;
+}
+li.mob-folio-li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+}
+.logo {
+	margin: 0px auto;
+}
+#social_logo {
+	display: flex;
+	max-width: 25px;
+	padding-top: 25px;
+	padding-left: 30px;
+}
+.social {
+	margin: 0px auto;
+	display: flex;
+}
+.mob-folio-menu [type="checkbox"]{
+	display: none;
+}
+.mob-folio-menu label.toggleMenu {
+	display: block;
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-size: 22px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 3px;
+}
+.mob-folio-menu {
+	margin: 0px auto;
+}
+input.toggleMenu:checked + label.toggleMenu {
+	color: #a0e812;
+
+}
+input.toggleMenu:checked ~ ul{
+	display: block;
+}
+
+
+/*My Work*/
+
+.my_work {
+	margin-top: 50px;
+}
+
+h1.my-work {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+#sites_preview {
+	max-width: 80%;
+	height: auto;
+    margin: 50px auto;
+    box-shadow: -1px -2px 5px 3px #6fbf79;
+	display: flex;
+}
+.site-logo{
+ 	position:relative;   
+    width:300px;
+    display: inline;
+    
+}
+.block{
+    position:absolute;
+    left:100px;
+    bottom:50px;
+    right:3px;
+    top: -335px;
+    background:rgba(29,28,28, 0.95);
+    padding:50px;
+    display:none;
+    width: 399px;
+}
+
+.site-logo:hover .block{
+    display:block;
+}
+h2 {
+	color: #fff;
+	font-size: 40px;
+}
+h2:hover {
+	color: #6fbf79;
+}
+p {
+	color: #fff;
+}
+#hover_icon {
+	max-width: 35px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/*technologies*/
+
+h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+.tech_logos {
+    margin: 60px auto;
+    justify-content: center;
+    display: flex;
+}
+#logo_techno {
+	padding-left: 40px;
+	max-width: 11%;
+	height: auto;
+}
+
+/*about*/
+.my_photo {
+	margin: auto;
+}
+#about {
+	max-width: 800px;
+	margin: 120px auto;
+	display: flex;
+}
+#portrait {
+	float: left;
+	max-width: 160px;
+    border-radius: 120px;
+    margin: auto;
+}
+.about_me {
+	margin: auto;
+	padding-top: 30px;
+	max-width: 250px;
+}
+#social_logo_about {
+	max-width: 25px;
+	padding-top: 25px;
+	padding-right: 30px;
+}
+#desc_about_me {
+	font-size: 16px;
+}
+
+/*footer*/
+
+#footer_info {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    margin: 138px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+#up_arrow {
+	max-width: 40px;
+	margin-left: 40px;
+}
+
+/*for mini mobile*/
+@media screen and (max-width: 450px) {
+
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	overflow: hidden;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+a {
+	text-decoration: none;
+}
+.background {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrapper {
+	max-width: 700px;
+	margin: auto;
+}
+
+/*Header*/
+
+#mobile {
+	display: flex;
+}
+header {
+	display: none;
+}
+img {
+	max-width: 135px;
+}
+ul.mob-folio-ul {
+	display: none;
+	justify-content: center;
+	margin: auto;
+}
+li.mob-folio-li {
+	list-style: none;
+	padding-left: 0px;
+	padding-top: 25px;
+}
+li.mob-folio-li a {
+	text-decoration: none;
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	text-transform: uppercase;
+}
+.logo {
+	margin: 0px auto;
+	padding-top: 5px;
+}
+#social_logo {
+	display: flex;
+	max-width: 20px;
+	padding-top: 25px;
+	padding-left: 20px;
+}
+.social {
+	margin: 0px auto;
+	display: flex;
+}
+.mob-folio-menu [type="checkbox"]{
+	display: none;
+}
+.mob-folio-menu label.toggleMenu {
+	display: block;
+	padding-top: 25px;
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #fff;
+	cursor: pointer;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 3px;
+}
+.mob-folio-menu {
+	margin: 0px auto;
+}
+input.toggleMenu:checked + label.toggleMenu {
+	color: #a0e812;
+
+}
+input.toggleMenu:checked ~ ul{
+	display: block;
+}
+
+
+/*My Work*/
+
+.my_work {
+	margin-top: 50px;
+}
+
+h1.my-work {
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+}
+#sites_preview {
+	max-width: 80%;
+	height: auto;
+    margin: 50px auto;
+    box-shadow: -1px -2px 5px 3px #6fbf79;
+	display: flex;
+}
+.site-logo{
+ 	position:relative;   
+    width:300px;
+    display: inline;
+    
+}
+.block{
+    position:absolute;
+    left:100px;
+    bottom:50px;
+    right:3px;
+    top: -335px;
+    background:rgba(29,28,28, 0.95);
+    padding:50px;
+    display:none;
+    width: 399px;
+}
+
+.site-logo:hover .block{
+    display:block;
+}
+h2 {
+	color: #fff;
+	font-size: 40px;
+}
+h2:hover {
+	color: #6fbf79;
+}
+p {
+	color: #fff;
+}
+#hover_icon {
+	max-width: 35px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
+
+/*technologies*/
+
+h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-family: 'Russo One', sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top: 100px;
+}
+.tech_logos {
+    margin: 60px auto;
+    justify-content: center;
+    display: flex;
+}
+#logo_techno {
+	padding: 0px 15px;
+	max-width: 7%;
+	height: auto;
+}
+
+/*about*/
+.my_photo {
+	margin: auto;
+}
+#about {
+	max-width: 800px;
+	margin: 120px auto;
+	display: flex;
+}
+#portrait {
+	float: left;
+	max-width: 160px;
+    border-radius: 120px;
+    margin: auto;
+}
+.about_me {
+	margin: auto;
+	padding-top: 30px;
+	max-width: 130px;
+}
+#social_logo_about {
+	max-width: 20px;
+	padding-top: 25px;
+	padding-right: 20px;
+}
+#desc_about_me {
+	font-size: 10px;
+}
+
+/*footer*/
+
+#footer_info {
+    display: flex;
+    align-items: center;
+}
+#footer {
+    margin: 138px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+#up_arrow {
+	max-width: 40px;
+	margin-left: 40px;
+}
+}
+
+
+
+
+

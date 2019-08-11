@@ -5,6 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>MyFolio</title>
 	<link href="main.css" rel="stylesheet">
+	<link href="media-queries.css" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Russo+One|Yanone+Kaffeesatz&display=swap&subset=cyrillic" rel="stylesheet">
 
 
@@ -12,9 +14,34 @@
 <body>
 	<div class="background">
 		<div class="wrapper">
+
+			<!--for mobile and tablets-->
+
+			<header id="mobile">
+				<div class="mob-folio-menu">
+					<label for="menu" class="toggleMenu"><i class="fa fa-bars"></i>
+menu</label>
+					<input type="checkbox" name="toggle" id="menu" class="toggleMenu">
+					<ul class="mob-folio-ul">
+						<li class="mob-folio-li"><a href="#my_work">мои работы</a></li>
+						<li class="mob-folio-li"><a href="#technologies">технологии</a></li>
+						<li class="mob-folio-li"><a href="#about">контакты</a></li>
+					</ul>
+				</div>
+				<div class="mob-logo">
+					<img src="img/Photofox.png" alt="logo">
+				</div>
+				<div class="social">
+					<a href="https://github.com/nikobeatz"><img src="img/git-icon.svg" alt="github" id="social_logo"></a>
+					<a href="https://www.instagram.com/mr_clipz/"><img src="img/instagram-icon.svg" alt="instagram" id="social_logo"></a>
+				</div>
+			</header>
+
+			<!-- for all devices-->
+
 			<header>
 				<div class="logo">
-					<img src="img/Photofox.png" alt="logo">
+						<img src="img/Photofox.png" alt="logo">
 				</div>
 				<div class="folio-menu">
 					<ul class="folio-ul">
@@ -69,9 +96,10 @@
         			</div>
 				</div>		
 			</div>
-			<h3> используемые технологии</h3>
+			
 
 			<div id="technologies">
+				<h3> используемые технологии</h3>
 				<div class="tech_logos">
 					<img src="img/html-5.svg" alt="" id="logo_techno">
 					<img src="img/github-icon.svg" alt="" id="logo_techno">
