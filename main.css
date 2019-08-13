@@ -80,7 +80,7 @@ h1.my-work {
 }
 .site-logo{
  	position:relative;   
-    width:300px;
+    /*width: 300px;*/
     display: inline;
     
 }
