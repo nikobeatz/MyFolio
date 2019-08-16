@@ -11,7 +11,7 @@ a {
 	text-decoration: none;
 }
 .background {
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(39deg, rgba(6,1,94,1) 0%, rgba(1,1,153,1) 37%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
 	max-width: 1100px;
@@ -32,7 +32,7 @@ img {
 ul.folio-ul {
 	display: flex;
 	justify-content: center;
-	margin-left: 160px;
+	margin: 0px auto;
 }
 li.folio-li {
 	list-style: none;
@@ -41,7 +41,7 @@ li.folio-li {
 }
 li.folio-li a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 15px;
 	color: #fff;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-transform: uppercase;
@@ -51,9 +51,7 @@ li.folio-li a {
 	padding-top: 25px;
 	padding-left: 40px;
 }
-.social {
-	margin-left: 180px;
-}
+
 
 /*for mobile and tablets*/
 
@@ -61,20 +59,20 @@ li.folio-li a {
 /*My Work*/
 
 .my_work {
-	margin-top: 50px;
+	margin-top: 80px;
 }
 
 h1.my-work {
 	text-transform: uppercase;
-	font-size: 80px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 40px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 }
 #sites_preview {
 	max-width: 300px;
     margin-top: 50px;
-    box-shadow: -1px -2px 5px 3px #6fbf79;
+    /*box-shadow: -1px -2px 5px 3px #6fbf79;*/
     margin-left: 50px;
 
 }
@@ -102,10 +100,11 @@ h2 {
 	color: #fff;
 }
 h2:hover {
-	color: #6fbf79;
+	color: #6ac5ec;
 }
 p {
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
 #hover_icon {
 	max-width: 35px;
@@ -114,39 +113,45 @@ p {
 }
 
 /*technologies*/
+#technologies {
+	margin-top: 120px;
+}
 
 h3 {
 	text-transform: uppercase;
 	font-size: 40px;
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
-	margin-top: 80px;
 }
 .tech_logos {
     margin: 60px auto;
-    justify-content: center;
-    display: flex;
+    justify-content: space-evenly;
+	display: flex;
+	max-width: 850px;
 }
 #logo_techno {
-	padding-left: 40px;
+	max-width: 6%;
 }
 
 /*about*/
 
 #about {
-	max-width: 800px;
+	max-width: 825px;
 	margin: 100px auto;
 	display: flex;
 }
+.my_photo {
+	padding-left: 80px;
+}
 #portrait {
 	float: left;
-	max-width: 240px;
-    border-radius: 120px;
+	max-width: 190px;
+	border-radius: 120px;
 }
 .about_me {
 	margin: auto 60px;
-	padding-top: 30px;
+	padding-top: 0px;
 }
 #social_logo_about {
 	max-width: 25px;
@@ -155,6 +160,7 @@ h3 {
 }
 #desc_about_me {
 	font-size: 20px;
+	text-align: justify;
 }
 
 /*footer*/

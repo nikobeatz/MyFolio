@@ -16,7 +16,7 @@ a {
 	text-decoration: none;
 }
 .background {
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(39deg, rgba(6,1,94,1) 0%, rgba(1,1,153,1) 37%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
 	max-width: 900px;
@@ -30,6 +30,9 @@ header {
 img {
 	max-width: 160px;
 }
+.folio-menu {
+	margin: 0px auto;
+}
 ul.folio-ul {
 	display: flex;
 	justify-content: center;
@@ -42,7 +45,7 @@ li.folio-li {
 }
 li.folio-li a {
 	text-decoration: none;
-	font-size: 20px;
+	font-size: 13px;
 	color: #fff;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	text-transform: uppercase;
@@ -52,9 +55,7 @@ li.folio-li a {
 	padding-top: 25px;
 	padding-left: 40px;
 }
-.social {
-	margin: auto;
-}
+
 
 /*My Work*/
 
@@ -64,17 +65,15 @@ li.folio-li a {
 
 h1.my-work {
 	text-transform: uppercase;
-	font-size: 60px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 }
 #sites_preview {
-
 	max-width: 230px;
     margin-top: 50px;
-    box-shadow: -1px -2px 5px 3px #6fbf79;
-    margin:100px 30px;
+    margin:100px 30px 0px;
 
 }
 .site-logo{
@@ -85,10 +84,10 @@ h1.my-work {
 }
 .block{
     position:absolute;
-    left:30px;
-    bottom:104px;
+    left: 30px;
+    bottom: 4px;
     right:34px;
-    top: -217px;
+    top: -117px;
     background:rgba(29,28,28, 0.95);
     padding: 20px 50px 50px 20px;
     display:none;
@@ -102,10 +101,11 @@ h2 {
 	font-size: 20px
 }
 h2:hover {
-	color: #6fbf79;
+	color: #6ac5ec;
 }
 p {
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
 #hover_icon {
 	max-width: 25px;
@@ -117,45 +117,46 @@ p {
 
 h3 {
 	text-transform: uppercase;
-	font-size: 40px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 35px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 	margin-top: 80px;
 }
 .tech_logos {
     margin: 60px auto;
-    justify-content: center;
-    display: flex;
+    justify-content: space-evenly;
+	display: flex;
+	max-width: 800px;
 }
 #logo_techno {
-	padding-left: 45px;
-	max-width: 100px;
+	max-width: 6%;
 }
 
 /*about*/
 
 #about {
-	max-width: 800px;
+	max-width: 750px;
 	margin: 100px auto;
 	display: flex;
 }
 #portrait {
 	float: left;
-	max-width: 240px;
+	max-width: 180px;
     border-radius: 120px;
 }
 .about_me {
-	margin: auto 80px;
-	padding-top: 30px;
+	margin: auto 60px;
+	padding-top: 0px;
 }
 #social_logo_about {
-	max-width: 35px;
+	max-width: 25px;
 	padding-top: 25px;
 	padding-right: 30px;
 }
 #desc_about_me {
-	font-size: 20px;
+	font-size: 18px;
+	text-align: justify;
 }
 
 /*footer*/
@@ -191,7 +192,7 @@ a {
 	text-decoration: none;
 }
 .background {
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(39deg, rgba(6,1,94,1) 0%, rgba(1,1,153,1) 37%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
 	max-width: 700px;
@@ -244,7 +245,7 @@ li.mob-folio-li a {
 }
 .mob-folio-menu label.toggleMenu {
 	display: block;
-	padding-top: 25px;
+	padding-top: 22px;
 	text-transform: uppercase;
 	font-size: 22px;
 	color: #fff;
@@ -272,15 +273,14 @@ input.toggleMenu:checked ~ ul{
 
 h1.my-work {
 	text-transform: uppercase;
-	font-size: 40px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 }
 #sites_preview {
-	max-width: 500px;
+	max-width: 400px;
     margin: 50px auto;
-    box-shadow: -1px -2px 5px 3px #6fbf79;
 	display: flex;
 }
 .site-logo{
@@ -291,14 +291,14 @@ h1.my-work {
 }
 .block{
     position:absolute;
-    left:100px;
+    left:150px;
     bottom:50px;
-    right:3px;
-    top: -335px;
+    right:18px;
+    top: -278px;
     background:rgba(29,28,28, 0.95);
     padding:50px;
     display:none;
-    width: 399px;
+    width: 300px;
 }
 
 .site-logo:hover .block{
@@ -306,10 +306,10 @@ h1.my-work {
 }
 h2 {
 	color: #fff;
-	font-size: 40px;
+	font-size: 30px;
 }
 h2:hover {
-	color: #6fbf79;
+	color: #6ac5ec;
 }
 p {
 	color: #fff;
@@ -325,41 +325,40 @@ p {
 h3 {
 	text-transform: uppercase;
 	font-size: 30px;
-	font-family: 'Russo One', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 	margin-top: 100px;
 }
 .tech_logos {
     margin: 60px auto;
-    justify-content: center;
-    display: flex;
+    justify-content: space-evenly;
+	display: flex;
+	max-width: 780px;
 }
 #logo_techno {
-	padding-left: 40px;
-	max-width: 12%;
-	height: auto;
+	max-width: 6%;
 }
 
 /*about*/
 .my_photo {
-	margin: auto;
+	padding-left: 10px;
 }
 #about {
 	max-width: 800px;
-	margin: 120px auto;
+	margin: 100px auto;
 	display: flex;
+	justify-content: center;
 }
 #portrait {
 	float: left;
-	max-width: 240px;
+	max-width: 190px;
     border-radius: 120px;
     margin: auto;
 }
 .about_me {
-	margin: auto;
-	padding-top: 30px;
-	max-width: 320px;
+	margin: auto 50px;
+	max-width: 295px;
 }
 #social_logo_about {
 	max-width: 25px;
@@ -367,7 +366,7 @@ h3 {
 	padding-right: 30px;
 }
 #desc_about_me {
-	font-size: 20px;
+	font-size: 17px;
 }
 
 /*footer*/
@@ -402,7 +401,7 @@ a {
 	text-decoration: none;
 }
 .background {
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(39deg, rgba(6,1,94,1) 0%, rgba(1,1,153,1) 37%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
 	max-width: 700px;
@@ -428,7 +427,7 @@ ul.mob-folio-ul {
 li.mob-folio-li {
 	list-style: none;
 	padding-left: 0px;
-	padding-top: 25px;
+	padding-top: 22px;
 }
 li.mob-folio-li a {
 	text-decoration: none;
@@ -483,16 +482,15 @@ input.toggleMenu:checked ~ ul{
 
 h1.my-work {
 	text-transform: uppercase;
-	font-size: 40px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 }
 #sites_preview {
-	max-width: 80%;
+	max-width: 70%;
 	height: auto;
     margin: 50px auto;
-    box-shadow: -1px -2px 5px 3px #6fbf79;
 	display: flex;
 }
 .site-logo{
@@ -503,14 +501,14 @@ h1.my-work {
 }
 .block{
     position:absolute;
-    left:100px;
+    left:70px;
     bottom:50px;
     right:3px;
-    top: -335px;
+    top: -236px;
     background:rgba(29,28,28, 0.95);
     padding:50px;
     display:none;
-    width: 399px;
+    width: 225px;
 }
 
 .site-logo:hover .block{
@@ -518,13 +516,14 @@ h1.my-work {
 }
 h2 {
 	color: #fff;
-	font-size: 40px;
+	font-size: 26px;
 }
 h2:hover {
-	color: #6fbf79;
+	color: #6ac5ec;
 }
 p {
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
 #hover_icon {
 	max-width: 35px;
@@ -536,42 +535,39 @@ p {
 
 h3 {
 	text-transform: uppercase;
-	font-size: 30px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 	margin-top: 100px;
 }
 .tech_logos {
     margin: 60px auto;
-    justify-content: center;
-    display: flex;
+    justify-content: space-evenly;
+	display: flex;
+	max-width: 800px;
 }
 #logo_techno {
-	padding-left: 40px;
-	max-width: 11%;
-	height: auto;
+	max-width: 6%;
 }
 
 /*about*/
 .my_photo {
-	margin: auto;
+	padding-left: 10px;
 }
 #about {
 	max-width: 800px;
-	margin: 120px auto;
+	margin: 80px auto;
 	display: flex;
 }
 #portrait {
 	float: left;
-	max-width: 160px;
+	max-width: 140px;
     border-radius: 120px;
-    margin: auto;
 }
 .about_me {
-	margin: auto;
-	padding-top: 30px;
-	max-width: 250px;
+	margin: auto 40px;
+	padding-top: 0px;
 }
 #social_logo_about {
 	max-width: 25px;
@@ -579,7 +575,8 @@ h3 {
 	padding-right: 30px;
 }
 #desc_about_me {
-	font-size: 16px;
+	font-size: 12px;
+	text-align: justify;
 }
 
 /*footer*/
@@ -614,7 +611,7 @@ a {
 	text-decoration: none;
 }
 .background {
-	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-image: linear-gradient(39deg, rgba(6,1,94,1) 0%, rgba(1,1,153,1) 37%, rgba(0,212,255,1) 100%);
 }
 .wrapper {
 	max-width: 700px;
@@ -656,7 +653,7 @@ li.mob-folio-li a {
 #social_logo {
 	display: flex;
 	max-width: 20px;
-	padding-top: 25px;
+	padding-top: 18px;
 	padding-left: 20px;
 }
 .social {
@@ -668,7 +665,7 @@ li.mob-folio-li a {
 }
 .mob-folio-menu label.toggleMenu {
 	display: block;
-	padding-top: 25px;
+	padding-top: 18px;
 	text-transform: uppercase;
 	font-size: 15px;
 	color: #fff;
@@ -696,8 +693,8 @@ input.toggleMenu:checked ~ ul{
 
 h1.my-work {
 	text-transform: uppercase;
-	font-size: 40px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 25px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
 }
@@ -705,7 +702,6 @@ h1.my-work {
 	max-width: 80%;
 	height: auto;
     margin: 50px auto;
-    box-shadow: -1px -2px 5px 3px #6fbf79;
 	display: flex;
 }
 .site-logo{
@@ -716,7 +712,7 @@ h1.my-work {
 }
 .block{
     position:absolute;
-    left:41px;
+    left:42px;
     bottom:50px;
     right:100px;
     top: -239px;
@@ -734,10 +730,11 @@ h2 {
 	font-size: 20px;
 }
 h2:hover {
-	color: #6fbf79;
+	color: #6ac5ec;
 }
 p {
 	color: #fff;
+	font-family: 'Montserrat', sans-serif;
 }
 #hover_icon {
 	max-width: 25px;
@@ -747,29 +744,30 @@ p {
 }
 
 /*technologies*/
+#technologies {
+	margin-top: 90px;
+}
 
 h3 {
 	text-transform: uppercase;
-	font-size: 30px;
-	font-family: 'Russo One', sans-serif;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
 	color: #fff;
 	text-align: center;
-	margin-top: 100px;
 }
 .tech_logos {
-    margin: 60px auto;
-    justify-content: center;
-    display: flex;
+    margin: 40px auto;
+    justify-content: space-evenly;
+	display: flex;
+	max-width: 350px;
 }
 #logo_techno {
-	padding: 0px 15px;
 	max-width: 7%;
-	height: auto;
 }
 
 /*about*/
 .my_photo {
-	margin: auto;
+	padding-left: 10px;
 }
 #about {
 	max-width: 800px;
@@ -778,22 +776,20 @@ h3 {
 }
 #portrait {
 	float: left;
-	max-width: 160px;
+	max-width: 140px;
     border-radius: 120px;
-    margin: auto;
 }
 .about_me {
-	margin: auto;
-	padding-top: 30px;
-	max-width: 130px;
+	margin: auto 40px;
+	padding-top: 0px;
 }
 #social_logo_about {
 	max-width: 20px;
-	padding-top: 25px;
+	padding-top: 20px;
 	padding-right: 20px;
 }
 #desc_about_me {
-	font-size: 10px;
+	font-size: 11px;
 }
 
 /*footer*/
